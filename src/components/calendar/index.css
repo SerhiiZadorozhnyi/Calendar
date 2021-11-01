@@ -1,0 +1,117 @@
+/* .block__calendar {
+  width: calc(100% - 30%);
+  margin: auto;
+  border: 1px solid gray;
+  padding: 20px;
+  border-radius: 5px;
+} */
+
+/* .block {
+  margin: auto;
+  border: 1px solid gray;
+  border-radius: 5px;
+} */
+
+/* .calendar header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 5px;
+  background-color: #EBEBEB;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+} */
+
+/* .calendar header button{
+  margin: 0px;
+  border-radius: 5px;
+  transition: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+} */
+
+/* .calendar header button:hover {
+  border: 1px solid #0081ff;
+  transition: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+} */
+
+/* .calendar header select {
+  margin: 0 4px;
+  transition: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.calendar header select:hover {
+  border: 1px solid #0081ff;
+  transition: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+} */
+
+/* .calendar table {
+  table-layout: fixed;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: auto;
+  padding: 0 10px 10px 10px;
+
+  width: 100%;
+} */
+
+/* .calendar th {
+  vertical-align: middle;
+  text-align: center;
+  height: 36px;
+} */
+
+.calendar .day {
+  padding: 4px 8px;
+  vertical-align: middle;
+  text-align: center;
+  border: 2px solid transparent;
+  transition: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.calendar .day:hover {
+  background-color: #eaeaea;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.calendar .day.selected {
+  border: 2px solid dodgerblue;
+  border-radius: 5px;
+}
+
+.calendar .day.today {
+  background-color: dodgerblue;
+  color: white;
+  border-radius: 5px;
+}
+
+.calendar .day.today:hover {
+  background-color: #0081ff;
+  border-radius: 5px;
+}
+
+.calendar .day.today.selected {
+  border: 2px solid lightgray;
+}
+
+/* .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5px;
+  margin-top: 15px;
+} */
+
+/* .button__submit {
+  transition: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button__submit:hover {
+  transition: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid #0081ff;
+}
+
+.button__submit:active {
+  transition: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: #0081ff;
+  color: #fff;
+} */
